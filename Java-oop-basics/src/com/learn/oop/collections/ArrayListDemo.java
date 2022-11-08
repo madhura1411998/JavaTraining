@@ -1,6 +1,7 @@
 package com.learn.oop.collections;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListDemo {
 
@@ -11,7 +12,11 @@ public class ArrayListDemo {
 		participantList.add("Ram");
 		participantList.add("Sita");
 		participantList.add("Sam");
-		System.out.println(participantList);
-		
+//		System.out.println(participantList);
+		participantList.add(1,"Dhoni");
+		Iterator itr=participantList.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 	}
 }

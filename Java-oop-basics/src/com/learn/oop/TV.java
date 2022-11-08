@@ -9,6 +9,14 @@ public class TV {
 	String color;
 	String displayType;
 
+	void insertData(String b,String mn,Integer ss,Integer p,String c,String dt) {
+		this.brand=b;
+		this.modelName=mn;
+		this.screenSize=ss;
+		this.price=p;
+		this.color=c;
+		this.displayType=dt;
+	}
 	public static void main(String[] args) {
 		TV lgOled=new TV();
 		TV samsungFrame =new TV();
@@ -19,5 +27,7 @@ public class TV {
 		lgOled.color="black";
 		lgOled.displayType="OLED";
 		System.out.println(lgOled.brand+" "+lgOled.modelName);
+		samsungFrame.insertData("Samsung", "65' Frame TV",65, 12000, "Beige","LED");
+		System.out.println(samsungFrame.brand+" "+samsungFrame.modelName);
 	}
 }

@@ -505,3 +505,36 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1318)
 	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:959)
 	... 22 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 15:32:15.841
+!MESSAGE Preparing classpath changed notification Sales
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 15:32:15.842
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 15:32:15.843
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 15:32:15.843
+!MESSAGE buffering callback sts4.classpath.OojlzuvB Sales false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 15:32:15.844
+!MESSAGE executing callback sts4.classpath.OojlzuvB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 15:32:15.847
+!MESSAGE executing callback sts4.classpath.OojlzuvB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 15:32:25.757
+!MESSAGE Preparing classpath changed notification Sales
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 15:32:25.758
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 15:32:25.759
+!MESSAGE buffering callback sts4.classpath.OojlzuvB Sales true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 15:32:25.759
+!MESSAGE executing callback sts4.classpath.OojlzuvB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-08 15:32:25.762
+!MESSAGE executing callback sts4.classpath.OojlzuvB SUCCESS [done]

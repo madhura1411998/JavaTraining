@@ -6,6 +6,7 @@ public class HR extends Employee{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		HR anisha =new HR();
-		System.out.println("Total salary of Anisha is:"+anisha.total);
+//		System.out.println("Total salary of Anisha is:"+anisha.total);
+		anisha.totalSalary(anisha.baseSalary,anisha.bonus);
 	}
 }

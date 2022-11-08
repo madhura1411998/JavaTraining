@@ -27,7 +27,7 @@ public class TV {
 		lgOled.color="black";
 		lgOled.displayType="OLED";
 		System.out.println(lgOled.brand+" "+lgOled.modelName);
-		samsungFrame.insertData("Samsung", "65' frame TV",65, 12000, "Beige","LED");
+		samsungFrame.insertData("Samsung", "65' Frame TV",65, 12000, "Beige","LED");
 		System.out.println(samsungFrame.brand+" "+samsungFrame.modelName);
 	}
 }

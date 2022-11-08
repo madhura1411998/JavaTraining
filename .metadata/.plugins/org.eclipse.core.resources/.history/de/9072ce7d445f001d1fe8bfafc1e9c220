@@ -29,10 +29,8 @@ public class TV {
 		lgOled.price=10000;
 		lgOled.color="black";
 		lgOled.displayType="OLED";
-//		System.out.println(lgOled.brand+" "+lgOled.modelName);
-		lgOled.displayTV();
-		samsungFrame.insertData("Samsung", "65' Frame TV",65, 12000, "Beige","LED");
-//		System.out.println(samsungFrame.brand+" "+samsungFrame.modelName);
-		samsungFrame.displayTV();
+		System.out.println(lgOled.brand+" "+lgOled.modelName);
+		samsungFrame.insertData("Samsung", "65' frame TV",65, 12000, "Beige","LED");
+		System.out.println(samsungFrame.brand+" "+samsungFrame.modelName);
 	}
 }

@@ -3,6 +3,7 @@ package com.start;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 import com.start.student.Student;
 import com.start.student.StudentDao;
@@ -16,7 +17,8 @@ public class Start {
 			System.out.println("press 1 to add a student");
 			System.out.println("press 2 to delete a student");
 			System.out.println("press 3 to display a student");
-			System.out.println("press 4 to exit the app");
+			System.out.println("press 4 to update a student");
+			System.out.println("press 5 to exit the app");
 			int choice=Integer.parseInt(br.readLine());
 			
 			if(choice==1) {
@@ -38,13 +40,40 @@ public class Start {
 				}
 			}else if(choice == 2) {
 				//delete student
-				System.out.println("E");
+				System.out.println("Enter Student id to delete : ");
+				int studentId=Integer.parseInt(br.readLine());
+				boolean answer=StudentDao.deleteStudent(studentId);
+				if(answer) {
+					System.out.println("Student deleted succesfully");
+				}
+				else {
+					System.out.println("There is some problem please contact admin");
+				}
 			}else if(choice == 3) {
 				//display student
-			}else if(choice == 4) {
-				//exit menu
-			}else {
+				System.out.println("Below are the students in SMS");
+				StudentDao.displayStudents();
 				
+			}else if(choice == 4) {
+				//update student
+				System.out.println("Enter id of student to update : ");
+				int studentId=Integer.parseInt(br.readLine());
+				System.out.println("Enter name of student : ");
+				Scanner sc=new Scanner(System.in);
+				String name=sc.nextLine();
+				boolean answer=StudentDao.updateStudent(name,studentId);
+				if(answer) {
+					System.out.println("Student updated succesfully");
+				}
+				else {
+					System.out.println("There is some problem please contact admin");
+				}
+			}
+			else if(choice == 5) {
+				//exit menu
+				System.exit(0);
+			}else {
+
 			}
 			System.out.println("Thanks for using the student management system");
 		}

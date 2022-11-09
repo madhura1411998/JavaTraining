@@ -874,3 +874,39 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 13:30:48.902
+!MESSAGE Preparing classpath changed notification StudentManagementApp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 13:30:48.904
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 13:30:48.904
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 13:30:48.904
+!MESSAGE buffering callback sts4.classpath.OojlzuvB StudentManagementApp false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 13:30:48.906
+!MESSAGE executing callback sts4.classpath.OojlzuvB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 13:30:48.919
+!MESSAGE executing callback sts4.classpath.OojlzuvB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 13:39:59.263
+!MESSAGE Preparing classpath changed notification StudentManagementApp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 13:39:59.264
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 13:39:59.266
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 13:39:59.267
+!MESSAGE buffering callback sts4.classpath.OojlzuvB StudentManagementApp false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 13:39:59.268
+!MESSAGE executing callback sts4.classpath.OojlzuvB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-09 13:39:59.281
+!MESSAGE executing callback sts4.classpath.OojlzuvB SUCCESS [done]

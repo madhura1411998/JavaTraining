@@ -59,4 +59,20 @@ public class StudentDao {
 		}		
 	}
 
+	public static boolean updateStudent(String name,int studentId) {
+		boolean status=false;
+		try {
+			Connection con= ConnectionProvider.createC();
+			String query="update students set sname=? where sid=?";
+			PreparedStatement pstmt=con.prepareStatement(query);
+			pstmt.setString(1, name);
+			pstmt.setInt(2, studentId);
+			pstmt.executeUpdate();
+			status=true;
+			
+		}catch(Exception e) {
+			
+		}
+		return status;
 	}
+}
